@@ -28,12 +28,8 @@ export const routes: Routes = [
     },
     children: [
       {
-        path: 'dashboard',
-        loadChildren: () => import('./views/dashboard/dashboard.module').then(m => m.DashboardModule)
-      },
-      {
-        path: 'intro',
-        loadChildren: () => import('./views/intro/intro.module').then(m => m.IntroModule)
+        path: 'main',
+        loadChildren: () => import('./views/main/main.module').then(m => m.MainModule)
       }
     ]
   },
