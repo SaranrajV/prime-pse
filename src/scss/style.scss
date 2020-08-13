@@ -1,0 +1,55 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+.card-footer{
+    text-align: right;
+}
+
+.edit-icon{
+    color: #1b8eb7;
+    cursor: pointer;
+}
+
+.remove-icon{
+    color: #f64846;
+    cursor: pointer;
+}
+
+.sub-content{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.btn-outline-info {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-info:hover{
+    color: #23282c;
+    background-color: #fff;
+    border-color: #fff;
+    font-weight: 600;
+}
+
+.head-topic{
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 3%;
+    padding: 2rem;
+    border-radius: 4px;
+    margin-top: 2%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.heading{
+    text-align: center !important;
+    width: 100%;
+}
